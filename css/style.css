@@ -1,0 +1,62 @@
+
+canvas {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast
+}
+
+
+#game_container{
+    font-family: arial;
+    font-size: 12px;
+    background: #000;
+    top: 240px;
+    left:160px;
+    position: relative;
+    width: 570px;
+}
+
+#canvas
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+
+#cont{
+    font-size: 1.6em;
+    width: 570px;
+    height: 350px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
+
+#canvas_buff {
+    visibility: hidden
+}
+
+#gameover{
+    display: none;
+    margin-top: 100px;
+    width: 570px;
+    text-align: center;
+    font-size: 2.3em;
+}
+
+.score,.lives{
+    width: 70%;
+    float: right;
+}
+
+.lives{
+    width: 30%;
+}
