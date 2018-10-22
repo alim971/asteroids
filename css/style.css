@@ -15,10 +15,10 @@ canvas {
     font-family: arial;
     font-size: 12px;
     background: #000;
-    top: 240px;
-    left:160px;
+    top: 40px;
+    left:60px;
     position: relative;
-    width: 570px;
+    width: 1100px;
 }
 
 #canvas
@@ -31,8 +31,8 @@ canvas {
 
 #cont{
     font-size: 1.6em;
-    width: 570px;
-    height: 350px;
+    width: 1100px;
+    height: 800px;
     color: #fff;
     font-weight: bold;
     position: absolute;
@@ -44,15 +44,15 @@ canvas {
     visibility: hidden
 }
 
-#gameover{
+#gameover, #help,#next_level, #new_game{
     display: none;
     margin-top: 100px;
-    width: 570px;
+    width: 1100px;
     text-align: center;
     font-size: 2.3em;
 }
 
-.score,.lives{
+.score,.lives, .level{
     width: 70%;
     float: right;
 }

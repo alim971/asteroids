@@ -7,13 +7,19 @@
 </head>
 <body>
     <div id="game_container">
+        <canvas id="canvas_buff" width="1100" height="600"></canvas>
+        <canvas id="canvas" width="1100" height="600"></canvas>
         <div id="cont">
-            <span class="lives">Lives</span>
-            <span class="score">Score <span id="player_score"></span></span>
+            <span class="score">Score
+                <span id="player_score"></span>
+                <span class="level">Level <span id="level"></span>
+                </span>
+            </span>
             <div id="gameover">Game Over</div>
+            <div id="new_game">New game</div>
+            <div id="next_level"></div>
+            <div id="help">Use arrows to move, space to shoot, W to teleport</div>
         </div>
-        <canvas id="canvas_buff" width="570" height="350"></canvas>
-        <canvas id="canvas" width="570" height="350"></canvas>
     </div>
 </body>
 </html>
